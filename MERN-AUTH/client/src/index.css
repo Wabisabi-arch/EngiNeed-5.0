@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-primary: "Roboto", "serif";
+
+  --color-maroon-700: #781f1e;
+  --color-maroon-800: #611919;
+  --color-maroon-900: #4e1313;
+
+  --color-gold-100: #fefcbf;
+  --color-gold-200: #f6e05e;
+  --color-gold-300: #ecc94b;
+  --color-gold-400: #d69e2e;
+  --color-gold-500: #b7791f;
+
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
